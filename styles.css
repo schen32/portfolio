@@ -4,3 +4,5 @@
 .intro-side{display:flex;align-items:end;gap:22px}
 .profile-photo{width:118px;height:118px;border-radius:50%;object-fit:cover;object-position:center;filter:saturate(.92);border:4px solid var(--paper);box-shadow:0 0 0 1px var(--line)}
 @media(max-width:800px){.intro-side{margin-top:24px;align-items:center}.profile-photo{width:92px;height:92px}.intro-meta{margin-top:0;flex-direction:column;gap:4px}}
+img.profile-photo{display:block!important;width:118px!important;height:118px!important;max-width:118px!important;flex:0 0 118px!important;object-fit:cover!important;border-radius:50%!important}
+@media(max-width:800px){img.profile-photo{width:92px!important;height:92px!important;max-width:92px!important;flex-basis:92px!important}}
